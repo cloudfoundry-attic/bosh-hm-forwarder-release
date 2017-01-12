@@ -1,0 +1,7 @@
+set -e -x
+
+pushd loggregator-blobs
+    unxz boshhmforwarder.xz
+    chmod +x boshhmforwarder
+    cp -a boshhmforwarder ${BOSH_INSTALL_TARGET}
+popd
