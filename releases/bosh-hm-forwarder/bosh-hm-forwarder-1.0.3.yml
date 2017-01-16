@@ -1,0 +1,19 @@
+name: bosh-hm-forwarder
+version: 1.0.3
+commit_hash: c288e4a
+uncommitted_changes: false
+jobs:
+- name: boshhmforwarder
+  version: 7c45da18be228d96df0027d15bda25b541d82d02
+  fingerprint: 7c45da18be228d96df0027d15bda25b541d82d02
+  sha1: 9b3eb003f51b402af052fa05a5a1aaa5912ee212
+packages:
+- name: boshhmforwarder
+  version: 61d221828b2ce119e85416b5ae681da10d3b4c47
+  fingerprint: 61d221828b2ce119e85416b5ae681da10d3b4c47
+  sha1: 28eac173336e8da9b3ae3aacd5a16ed7b798dfbf
+  dependencies: []
+license:
+  version: 347b80b126e148074dfe4a7343d4a717ef2155b7
+  fingerprint: 347b80b126e148074dfe4a7343d4a717ef2155b7
+  sha1: f7a7e8c62cdf644501b028ac71a6b02e5b6a708d
