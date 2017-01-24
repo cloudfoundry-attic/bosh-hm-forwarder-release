@@ -28,3 +28,9 @@
 [submodule "src/github.com/cloudfoundry/bosh-hm-forwarder"]
 	path = src/github.com/cloudfoundry/bosh-hm-forwarder
 	url = https://github.com/cloudfoundry/bosh-hm-forwarder
+[submodule "src/github.com/codegangsta/cli"]
+	path = src/github.com/codegangsta/cli
+	url = https://github.com/codegangsta/cli
+[submodule "src/github.com/vito/gosub"]
+	path = src/github.com/vito/gosub
+	url = https://github.com/vito/gosub
