@@ -1,4 +1,4 @@
-bosh-hm-forwarder-blobs/boshhmforwarder.xz:
-  size: 2392940
-  object_id: f0d0818e-1d11-41da-4ef0-cc2493e4b893
-  sha: 86e7ea12319f42c92b8cf9a9ee402b1237ecedb3
+golang/go1.7.4.linux-amd64.tar.gz:
+  size: 84021919
+  object_id: 224d6399-ec78-45e3-5084-8e2c98bdfa7b
+  sha: 2e5baf03d1590e048c84d1d5b4b6f2540efaaea1
