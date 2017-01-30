@@ -30,7 +30,7 @@ exec chpst -u vcap:vcap ./boshhmforwarder \
 
 stop)
 
-kill `cat $PIDFILE`
+kill -9 `cat $PIDFILE`
 
 rm -f $PIDFILE
 
