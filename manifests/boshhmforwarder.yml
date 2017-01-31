@@ -18,8 +18,8 @@ instance_groups:
   azs:
   - z1
   instances: 1
-  persistent_disk_type: 1GB
-  vm_type: common
+  persistent_disk_type: default
+  vm_type: default
   stemcell: default
   networks:
   - name: default
@@ -32,7 +32,7 @@ instance_groups:
           mode: server
           domain: cf.internal
           servers:
-            lan: [10.244.10.2]
+            lan: [10.244.0.2]
         require_ssl: true
         encrypt_keys:
         - "((consul_encrypt_key))"
