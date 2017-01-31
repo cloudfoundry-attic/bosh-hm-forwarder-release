@@ -6,7 +6,7 @@ stemcells:
   version: latest
 
 releases:
-- name: boshhmforwarder
+- name: bosh-hm-forwarder
   version: latest
 - name: loggregator
   version: latest
@@ -57,7 +57,7 @@ instance_groups:
             cert: "((loggregator_metron.certificate))"
             key: "((loggregator_metron.private_key))"
   - name: boshhmforwarder
-    release: boshhmforwarder
+    release: bosh-hm-forwarder
 
 variables:
 - name: dropsonde_shared_secret
