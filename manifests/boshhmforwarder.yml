@@ -32,7 +32,7 @@ instance_groups:
           mode: server
           domain: cf.internal
           servers:
-            lan: [10.244.0.2]
+            lan: [10.244.0.34]
         require_ssl: true
         encrypt_keys:
         - "((consul_encrypt_key))"
