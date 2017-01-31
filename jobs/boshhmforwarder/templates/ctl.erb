@@ -4,7 +4,7 @@ RUN_DIR=/var/vcap/sys/run/boshhmforwarder
 LOG_DIR=/var/vcap/sys/log/boshhmforwarder
 PIDFILE=${RUN_DIR}/boshhmforwarder.pid
 JOB_DIR=/var/vcap/jobs/boshhmforwarder
-CONFIG_FILE=${JOB_DIR}/config/boshhmforwarder_config.json
+CONFIG_FILE=${JOB_DIR}/config/config.json
 VERSION_FILE=${JOB_DIR}/config/version
 
 PACKAGE_DIR=/var/vcap/packages/boshhmforwarder
@@ -21,14 +21,14 @@ ulimit -n 8192
 
 echo $$ > $PIDFILE
 exec chpst -u vcap:vcap ./boshhmforwarder \
---configPath ${CONFIG_FILE}  \
-&>> ${LOG_DIR}/boshhmforwarder.log
+  --configPath ${CONFIG_FILE}  \
+  &>> ${LOG_DIR}/boshhmforwarder.log
 
 ;;
 
 stop)
 
-kill -9 `cat $PIDFILE`
+kill `cat $PIDFILE`
 
 rm -f $PIDFILE
 
