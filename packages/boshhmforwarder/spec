@@ -9,7 +9,6 @@ files:
 - github.com/cloudfoundry/bosh-hm-forwarder/config/*.go # gosub
 - github.com/cloudfoundry/bosh-hm-forwarder/forwarder/*.go # gosub
 - github.com/cloudfoundry/bosh-hm-forwarder/handlers/*.go # gosub
-- github.com/cloudfoundry/bosh-hm-forwarder/logging/*.go # gosub
 - github.com/cloudfoundry/bosh-hm-forwarder/tcp/*.go # gosub
 - github.com/cloudfoundry/bosh-hm-forwarder/valuemetricsender/*.go # gosub
 - github.com/cloudfoundry/dropsonde/*.go # gosub
@@ -31,4 +30,3 @@ files:
 - github.com/gogo/protobuf/protoc-gen-gogo/descriptor/*.go # gosub
 - github.com/gorilla/mux/*.go # gosub
 - github.com/nu7hatch/gouuid/*.go # gosub
-- github.com/op/go-logging/*.go # gosub

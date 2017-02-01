@@ -17,14 +17,6 @@ properties:
   boshhmforwarder.debug_port:
       description: "the http port for the debug endpoint - set to '-1' to disable debugging"
       default: -1
-  boshhmforwarder.log_level:
-    description: "the log level for the boshhmforwarder"
-    default: "INFO"
   metron_agent.dropsonde_incoming_port:
     description: "the port for the metron-agent"
     default: 3457
-
-  syslog_daemon_config.address:
-    description: "Address of the syslog endpoint"
-    default: ~
-

@@ -1,5 +1,3 @@
-set logfile syslog
-
 check process boshhmforwarder
   with pidfile /var/vcap/sys/run/boshhmforwarder/boshhmforwarder.pid
   start program "/var/vcap/jobs/boshhmforwarder/bin/ctl start"
