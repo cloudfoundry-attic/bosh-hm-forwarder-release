@@ -1,4 +1,4 @@
-# Bosh HM Forwarder Release
+# Bosh HM Forwarder Release [![slack.cloudfoundry.org][slack-badge]][loggregator-slack]
 
 Bosh HM Forwarder is a companion job to `metron_agent` that sends bosh health
 metrics through loggregator.
@@ -70,3 +70,6 @@ For example:
 ```bash
 bosh -d boshhmforwarder -e <env> deploy manifests/boshhmforwarder.yml --vars-file ./loggregator-vars.yml
 ```
+
+[slack-badge]:              https://slack.cloudfoundry.org/badge.svg
+[loggregator-slack]:        https://cloudfoundry.slack.com/archives/loggregator
