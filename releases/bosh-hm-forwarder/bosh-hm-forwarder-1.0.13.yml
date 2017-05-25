@@ -1,0 +1,25 @@
+name: bosh-hm-forwarder
+version: 1.0.13
+commit_hash: 1c99069
+uncommitted_changes: false
+jobs:
+- name: boshhmforwarder
+  version: ea478e351f54ce211dbd59b25724cab05ba4f521
+  fingerprint: ea478e351f54ce211dbd59b25724cab05ba4f521
+  sha1: abc134e95aebf5b5c5171a78a16612ef275ae24b
+packages:
+- name: boshhmforwarder
+  version: cf313d0e47d6d0ba82d0e3da418991ca3fd6a7fc
+  fingerprint: cf313d0e47d6d0ba82d0e3da418991ca3fd6a7fc
+  sha1: bfe937214a31235e94bca3b297df66906a28879d
+  dependencies:
+  - golang1.8.3
+- name: golang1.8.3
+  version: 6b1bfba0bc0455c57678161490ce4fa4fd5f70f4
+  fingerprint: 6b1bfba0bc0455c57678161490ce4fa4fd5f70f4
+  sha1: 50f960706a93f4f762eaee2592aa680f4e8b2d32
+  dependencies: []
+license:
+  version: 7def6604decf07f68bb507fbefdcbac8ecfba0fe
+  fingerprint: 7def6604decf07f68bb507fbefdcbac8ecfba0fe
+  sha1: 1cf8e9ff6a2e8a4a083ce5b9478a4575a6a9ec9f
