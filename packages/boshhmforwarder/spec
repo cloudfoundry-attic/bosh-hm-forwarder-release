@@ -2,7 +2,7 @@
 name: boshhmforwarder
 
 dependencies:
-    - golang1.9.1
+    - golang1.9.2
 
 files:
 - github.com/cloudfoundry/bosh-hm-forwarder/*.go # gosub
